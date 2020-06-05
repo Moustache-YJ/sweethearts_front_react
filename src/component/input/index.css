@@ -1,0 +1,10 @@
+.m_input{
+   outline:none;
+   border:unset;
+   height: 44px;
+   width: 80vw;
+   border-radius: 10px;
+   padding: 0px 4%;
+   border:1px solid #e5e3e3;
+   display: inline-block;
+}
