@@ -1,0 +1,33 @@
+.mes_ul{
+  padding: 10px 4%;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100%;
+  list-style: none;
+}
+.mes_ul>li{
+    height: 100px;
+    padding: 0px 4.3%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px #949494;
+    margin-top:10px;
+    background-color:#ffffff
+}
+.mes_ul .title{
+    height: 30px;
+    border-bottom:1px solid #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@keyframes transparent{
+    0% {opacity: 0;top: 30px;}
+    100% {opacity: 1;top:0px}
+}
+.transparent{
+    opacity: 0;
+    position: relative;
+    animation: transparent 1s alternate forwards;
+}

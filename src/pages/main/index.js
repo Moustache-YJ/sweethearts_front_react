@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import {TabBar} from 'antd-mobile'
-import Item1 from './message'
+import Message from './message'
 import Item2 from './mall'
 import './index.css'
 export default class MainLyout extends Component{
@@ -44,7 +44,7 @@ export default class MainLyout extends Component{
             }
             data-seed="logId"
           > 
-            <Item1></Item1>
+            <Message></Message>
           </TabBar.Item>
           <TabBar.Item
             key="gift"
