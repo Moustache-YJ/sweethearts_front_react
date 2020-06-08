@@ -17,10 +17,8 @@ export default class Message extends Component{
       this.renderInfo = this.renderInfo.bind(this)
     }
     componentDidMount(){
-        console.log(this.renderInfo())
     }
     handleClick(){
-         console.log('点击了我')
     }
     renderInfo(){
         const renderInfo = this.state.message.map((value,index) => {
@@ -29,15 +27,21 @@ export default class Message extends Component{
                     <span>{value.name}</span>
                     <span>{value.creatAt}</span>
                 </div>
+                <div></div>
             </li>
         })
         return renderInfo
     }
     render(){
         return(
-            <ul className="mes_ul">
-                {this.renderInfo()}
-            </ul>
+            <div className="message">
+                <div className="mes_tar">
+                    <img src={require('../../../assets/images/public/add.png')} alt="添加"/>
+                </div>
+                <ul className="mes_ul">
+                    {this.renderInfo()}
+                </ul>
+            </div>
         )
     }
 }

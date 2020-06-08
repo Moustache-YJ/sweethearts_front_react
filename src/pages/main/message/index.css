@@ -1,16 +1,31 @@
+.message{
+
+}
+.mes_tar{
+  width: 100%;
+  background-color: #ffffff;
+  height: 100px;
+  border-radius:0 0 100% 100%;
+}
+.mes_tar>img{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 80px;
+}
 .mes_ul{
+  width: 100%;
+  list-style: none;
+  min-height: 100%;
   padding: 10px 4%;
   box-sizing: border-box;
-  width: 100%;
-  min-height: 100%;
-  list-style: none;
 }
 .mes_ul>li{
     height: 100px;
     padding: 0px 4.3%;
     box-sizing: border-box;
     border-radius: 10px;
-    box-shadow: 0px 0px 8px 2px #949494;
+    box-shadow: 0px 0px 6px 1px #949494;
     margin-top:10px;
     background-color:#ffffff
 }
