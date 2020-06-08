@@ -3,7 +3,6 @@ import React from 'react';
 import RouterList from './router/index'
 import 'antd-mobile/dist/antd-mobile.css';
 import './App.css';
-import {TabBar} from 'antd-mobile'
 
 function App() {
   return (
