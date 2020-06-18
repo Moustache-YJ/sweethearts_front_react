@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+import './index.css'
 export default class Item2 extends Component{
     constructor(props){
       super(props)
@@ -9,7 +10,7 @@ export default class Item2 extends Component{
     }
     render(){
         return(
-            <p>item2</p>
+    <div className="translate" ></div>
         )
     }
 }
