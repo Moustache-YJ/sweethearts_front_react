@@ -1,10 +1,16 @@
-.translate{
-    width: 100px;
-    height: 100px;
-    background-color:red;
-    transform:translate(40px,60px) skew(30deg,20deg);
-    /* transform: rotate(30deg); */
+.mall{
+  padding: 10px 4%;
+  box-sizing: border-box;
 }
-.translate:before{
-
+.m_nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.m_nav>input{
+  flex:3
+}
+.m_nav>img{
+  width: 36px;
 }
